@@ -550,3 +550,22 @@ body {
 	color: #fff;
 	text-shadow: 3px 3px 10px #fff;
 }
+footer {
+}
+footer .footer_inner {
+	width: 100vw;
+	height: 100vh;
+	background: #070707;
+	position: relative;
+}
+footer .footer_inner .text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+footer .footer_inner .text p {
+	font-family: "Pretend_M";
+	font-size: 70px;
+	text-align: center;
+}
